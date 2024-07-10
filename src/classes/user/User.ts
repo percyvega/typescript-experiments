@@ -12,4 +12,5 @@ export class User extends Person implements Emailable {
     matchesEmail(value: string): boolean {
         return this._email === value;
     }
+
 }
